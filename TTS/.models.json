@@ -2,6 +2,19 @@
     "tts_models": {
         "multilingual": {
             "multi-dataset": {
+                "xtts_bill_spa": {
+                    "description": "XTTS-v2 fine-tuned for Bill voice",
+                    "hf_url": [
+                        "https://huggingface.co/rockdrigoma/BillCipherSpa/resolve/main/model.pth",
+                        "https://huggingface.co/rockdrigoma/BillCipherSpa/resolve/main/config.json",
+                        "https://huggingface.co/rockdrigoma/BillCipherSpa/resolve/main/vocab.json"
+                    ],
+                    "model_hash": "10f92b55c512af7a8d39d650547a15a7",
+                    "default_vocoder": null,
+                    "commit": "",
+                    "license": "",
+                    "contact": ""
+                },
                 "xtts_v2": {
                     "description": "XTTS-v2.0.3 by Coqui with 17 languages.",
                     "hf_url": [
